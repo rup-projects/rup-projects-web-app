@@ -39,7 +39,7 @@
         </mat-form-field>
         <button mat-button type="button" (click)="prePlanProject()">refresh</button>
 
-        <mat-card *ngIf="project" class="mat-elevation-z8">Iteration duration: {{ project.iterationSize }} days</mat-card>
+        <mat-card appearance="outlined" *ngIf="project" class="mat-elevation-z8">Iteration duration: {{ project.iterationSize }} days</mat-card>
 
         <table *ngIf="project" mat-table [dataSource]="project.phases" class="mat-elevation-z8">
 

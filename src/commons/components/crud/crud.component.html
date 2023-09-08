@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card appearance="outlined">
     <mat-card-title>{{title}}<span *ngIf="empty()"> EMPTY</span></mat-card-title>
     <mat-card-content>
         <mat-table #table [dataSource]="dataSource" class="mat-elevation-z8" matSort>

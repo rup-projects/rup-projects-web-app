@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {UseCase} from '../../../../logic/models/use-case';
 import {UseCaseService} from '../../../controllers/use-case.service';
-import {MatLegacyDialog as MatDialog} from '@angular/material/legacy-dialog';
+import {MatDialog} from '@angular/material/dialog';
 import {UseCaseDialogComponent} from './use-case-dialog/use-case-dialog.component';
 import {ReadDetailDialogComponent} from '../../../../commons/components/dialogs/read-detail.dialog.component';
 import {Observable} from 'rxjs';

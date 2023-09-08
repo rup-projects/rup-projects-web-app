@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {MatLegacyDialog as MatDialog} from '@angular/material/legacy-dialog';
+import {MatDialog} from '@angular/material/dialog';
 import {Observable} from 'rxjs';
 import {ReadDetailDialogComponent} from '../../../../commons/components/dialogs/read-detail.dialog.component';
 import {Member} from '../../../../logic/models/member';

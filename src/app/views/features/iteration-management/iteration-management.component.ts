@@ -6,7 +6,7 @@ import {Activity} from '../../../../logic/models/activity';
 import {NotAssignedCost} from '../../../../logic/models/not-assigned-cost';
 import {IterationService} from '../../../controllers/iteration.service';
 import {MemberService} from '../../../controllers/member.service';
-import {MatLegacyDialog as MatDialog} from '@angular/material/legacy-dialog';
+import {MatDialog} from '@angular/material/dialog';
 import {ReestimateHoursDialogComponent} from './reestimate-hours-dialog/reestimate-hours-dialog.component';
 import {AssignMemberDialogComponent} from './assign-member-dialog/assign-member-dialog.component';
 import resourceTimeGridPlugin from '@fullcalendar/resource-timegrid';

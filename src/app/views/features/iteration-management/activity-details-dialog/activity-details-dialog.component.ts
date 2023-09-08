@@ -1,7 +1,7 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {ActivityService} from '../../../../controllers/activity.service';
 import {IterationService} from '../../../../controllers/iteration.service';
-import {MAT_LEGACY_DIALOG_DATA as MAT_DIALOG_DATA, MatLegacyDialog as MatDialog} from '@angular/material/legacy-dialog';
+import {MAT_DIALOG_DATA, MatDialog} from '@angular/material/dialog';
 import {Activity} from '../../../../../logic/models/activity';
 import {UntypedFormBuilder, UntypedFormGroup, Validators} from '@angular/forms';
 import {Observable} from 'rxjs';
